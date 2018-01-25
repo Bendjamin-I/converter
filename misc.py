@@ -1,0 +1,1 @@
+token = '520482856:AAHO2Nv_zWc1Abqh5BDxJpaBZBUfbN4kzUQ'	#создаём переменную token для хранения нашего токена

@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 475424344,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 390165010,
+          "is_bot": false,
+          "first_name": "Леонид",
+          "last_name": "Миронов"
+        },
+        "chat": {
+          "id": 390165010,
+          "first_name": "Леонид",
+          "last_name": "Миронов",
+          "type": "private"
+        },
+        "date": 1507958124,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 475424345,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 390165010,
+          "is_bot": false,
+          "first_name": "Леонид",
+          "last_name": "Миронов",
+          "language_code": "ru-RU"
+        },
+        "chat": {
+          "id": 390165010,
+          "first_name": "Леонид",
+          "last_name": "Миронов",
+          "type": "private"
+        },
+        "date": 1507960527,
+        "text": "привет"
+      }
+    }
+  ]
+}
