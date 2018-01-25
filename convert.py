@@ -4,7 +4,7 @@ import requests
 #	return None
 rub = ' рублей'	#что бы не писать по несколько раз одно и тоже
 usd = ' usd'	#что бы не писать по несколько раз одно и тоже
-url = "https://www.cbr-xml-daily.ru/daily_json.js"	#сайт с которого берем курс (ЦБ)
+url = "http://www.cbr-xml-daily.ru/daily_json.js"	#сайт с которого берем курс (ЦБ)
 #-----------------------------------------------------------------------------------------
 response = requests.get(url).json()	#инвертируем сайт в json
 
@@ -49,7 +49,7 @@ def get_valut(a, kol):	#доллар
 	
 	
 def get_btc(kol):	#биткоин
-	url = 'https://yobit.net/api/2/btc_usd/ticker'
+	url = 'http://yobit.net/api/2/btc_usd/ticker'
 	response = requests.get(url).json()
 	prise = response['ticker']['last']
 	return str(kol * int(prise)) + ' usd'	
